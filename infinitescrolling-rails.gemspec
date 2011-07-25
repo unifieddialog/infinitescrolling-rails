@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "infinitescrolling-rails"
-  s.version     = "0.1.1"
+  s.version     = "0.1.2"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Leif Bladt"]
   s.email       = ["leif.bladt@gmx.de"]
