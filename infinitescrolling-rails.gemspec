@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Leif Bladt"]
   s.email       = ["leif.bladt@gmx.de"]
-  s.homepage    = "https://github.com/leifbladt/infinite_scrolling-rails"
+  s.homepage    = "https://github.com/leifbladt/infinitescrolling-rails"
   s.summary     = "Use the infinite scrolling jQuery plugin with Rails 3"
   s.description = "This gem provides the infinite scrolling jQuery plugin for your Rails 3 application."
 
