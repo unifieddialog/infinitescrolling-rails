@@ -1,5 +1,6 @@
 module Infinitescrolling
   module Rails
-    require 'infinitescrolling/rails/engine'
+    class Engine < ::Rails::Engine
+    end
   end
 end
