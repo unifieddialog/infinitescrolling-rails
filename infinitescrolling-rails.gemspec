@@ -7,13 +7,12 @@ Gem::Specification.new do |s|
   s.authors     = ["Leif Bladt"]
   s.email       = ["leif.bladt@gmx.de"]
   s.homepage    = "https://github.com/leifbladt/infinitescrolling-rails"
-  s.summary     = "Use the infinite scrolling jQuery plugin with Rails 3"
-  s.description = "This gem provides the infinite scrolling jQuery plugin for your Rails 3 application."
+  s.summary     = "Use the infinite scrolling jQuery plugin with Rails 3.1"
+  s.description = "This gem provides the infinite scrolling jQuery plugin for your Rails 3.1 application."
 
   s.required_rubygems_version = ">= 1.3.6"
 
   s.add_dependency "railties", "~> 3.1.0"
-  s.add_dependency "sprockets", "~> 2.0.0"
   s.add_dependency "jquery-rails"
   s.add_development_dependency "bundler", "~> 1.0.0"
 
