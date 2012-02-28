@@ -21,16 +21,9 @@
     },
 
     lowEnough: function() {
-      var pageHeight = Math.max(document.body.scrollHeight,
-              document.body.offsetHeight);
-      var viewportHeight = window.innerHeight ||
-              document.documentElement.clientHeight ||
-              document.body.clientHeight || 0;
-      var scrollHeight = window.pageYOffset ||
-              document.documentElement.scrollTop ||
-              document.body.scrollTop || 0;
-
-      // Trigger for scrolls within 20 pixels from page bottom
+      var pageHeight = $(document).height();
+      var viewportHeight = $(window).height();
+      var scrollHeight = $(document).scrollTop();
       return pageHeight - viewportHeight - scrollHeight < my.marginThreshold;
     }
   };
