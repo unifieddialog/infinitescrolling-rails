@@ -1,8 +1,19 @@
 # Usage (Rails 3.1) #
-Include the gem in your `Gemfile`:
+1. Include the gem in your `Gemfile`:
 
-```gem 'infinitescrolling-rails'```
+  ```gem 'infinitescrolling-rails'```
 
-Include in your `application.js`
+2. Include in your `application.js`
 
-```//= require infinitescrolling```
+  ```//= require infinitescrolling```
+
+# Release new gem #
+1. Update version
+
+  - Update version string in `infinitescrolling-rails.gemspec`
+  - `bundle install`
+  - Commit "Bump version x.y.z"
+
+2. Publish gem
+
+  - `rake release`
