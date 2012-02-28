@@ -64,5 +64,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.0.0)
+  bundler (~> 1.0)
   infinitescrolling-rails!
