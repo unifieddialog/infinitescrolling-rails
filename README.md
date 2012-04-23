@@ -1,4 +1,4 @@
-# Usage (Rails 3.1) #
+# Usage (Rails 3.1+) #
 1. Include the gem in your `Gemfile`:
 
   ```gem 'infinitescrolling-rails'```
