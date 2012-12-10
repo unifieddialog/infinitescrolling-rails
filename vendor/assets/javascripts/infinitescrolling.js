@@ -44,8 +44,8 @@
   $.fn.infiniteScrolling = function(loadCallback){
     var is = new IS(loadCallback, this);
 
-    this.bind('scroll', is.callback);
-    this.bind('resize', is.callback);
+    this.on('scroll', is.callback);
+    this.on('resize', is.callback);
     return this;
   };
 })(jQuery);
