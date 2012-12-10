@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    infinitescrolling-rails (0.2.1)
+    infinitescrolling-rails (0.3.0)
       jquery-rails
       railties (> 3.1.0)
 
